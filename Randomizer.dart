@@ -42,4 +42,5 @@ void main(){
     };
   };
   print('${Goal}がそろうまで、${Count}回かかりました！');
+  print('理論値は${pow(10,OrderStr.length)}で、理論値に占める${Count/(pow(10,OrderStr.length))}回で合致しました');
 }
